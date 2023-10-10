@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Pizza Restaurant</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- BootStrap ARRRRRRR -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top opacity-hover-off">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">home</a>
+        </li>
+ 
+        <li class="nav-item">
+          <a href="#" class="nav-link">menu</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">about</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="bg-img d-flex flex-column justify-content-between" id="home">
+    <div></div>
+    <div class="d-flex flex-column text-center">
+      <span class="display-1">Fire<br>Pizza</span>
+      <p><a href="#menu" class="btn btn-lg btn-dark hover-btn fs-3">Our menu</a></p>
+    </div>
+    <div class="d-flex justify-content-start">
+      <span class="bg-dark text-white p-3 h4"> Open from 10am - 11pm | Call 444-444-4444</span>
+    </div>
+  </header>
+
+  <!-- Menu -->
+  <div class="container-fluid bg-black text-white py-5 display-4" id="menu">
+    <div class="container">
+      <h1 class="text-center display-2 mb-5">the menu</h1>
+      <div class="text-center border border-dark">
+        <div class="d-flex">
+          <a href="" onclick="openMenu(event, 'Pizza')" class="col-4 tablink p3 hover-red">Starters</a>
+          <a href="" onclick="openMenu(event, 'Pizza')" class="col-4 tablink p3 hover-red">Pizza</a>
+          <a href="" onclick="openMenu(event, 'Pizza')" class="col-4 tablink p3 hover-red">Pasta</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="Pizza" class="container-fluid menu pg-4 bg-white">
+      <div class="d-flex justify-content-between align-items baseline">
+        <h2 class="mb-0 display-3"><b>Margherita</b></h2>
+        <span class="badge bg-dark text-white">$12.50</span>
+      </div>
+      <p class="text-muted">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+      <hr class="text-muted">
+    </div>
+
+    <!-- Pasta -->
+
+    <div id="Pasta" class="container-fluid menu pg-4 bg-white">
+      <div class="d-flex justify-content-between align-items baseline">
+        <h2 class="mb-0 display-3"><b>Lasagna</b></h2>
+        <span class="badge bg-dark text-white">$14.50</span>
+      </div>
+      <p class="text-muted">Special sauce, mozzarella, parmesan, ground beef</p>
+      <hr class="text-muted">
+    </div>
+
+    <!-- Starters -->
+
+    <div id="Starters" class="container-fluid menu pg-4 bg-white">
+      <div class="d-flex justify-content-between align-items baseline">
+        <h2 class="mb-0 display-3"><b>Garlic Bread</b></h2>
+        <span class="badge bg-dark text-white">$5.50</span>
+      </div>
+      <p class="text-muted">Ask to get it with cheese</p>
+      <hr class="text-muted">
+    </div>
+
+
+
+  </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

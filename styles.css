@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar stylings */
+.opacity-hover-off {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.nav-link{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+@media (max-width: 992px) {
+  #myNavbar {
+    display: none;
+  }
+}
+
+/* Header */
+
+.bg-img {
+  background-image: url(./assets/fuego-pizza.avif);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.btn {
+  min-width: 250px; 
+}
